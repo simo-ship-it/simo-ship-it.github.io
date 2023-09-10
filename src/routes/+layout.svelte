@@ -2,20 +2,27 @@
   import "../styles/global.css";
   import "../app.css";
   import logo from "../images/logo.svg"
+  
 </script>
 
 <nav>
-  <div class="container mx-auto px-10 py-2 flex justify-between items-center pt-20">
-    <img class="max-w-micro" src={logo} alt="download icon"/>
-    <div class=" lg:block ">
+  <div class=" mx-auto px-5 lg:px-10 xl:px-20 flex justify-between items-center pt-6 border-b-4 border-red-900  pb-4  ">
+    <img class=" w-8 lg:w-16 " src={logo} alt="download icon"/>
+    <div class="">
       <ul class="inline-flex">
-        <li><a class="pl-20 text-xl lg:text-xl" href="/about">chi sono</a></li>
-        <li><a class="pl-20 text-xl lg:text-xl" href="/about">lavori</a></li>
-        <li><a class="pl-20 text-xl lg:text-xl" href="/about">esperienza</a></li>
-        <li><a class="pl-20 text-xl lg:text-xl" href="/about">contattami</a></li>
+        <li><a class="px-10 text-lg hidden lg:block " href="/about">chi sono</a></li>
+        <li><a class="px-10 text-lg hidden lg:block " href="/about">lavori</a></li>
+        <li><a class="px-10 text-lg hidden lg:block " href="/about">esperienza</a></li>
+      
+        <div class="px-6 text-lg font-bold bg-clip-border  ">
+
+        <li><a class=" py-4 px-6 bg-red-200  border-red-900  border-b-4 rounded-full" href="/about" >contattami</a></li>
+        
+      </div>
       </ul>
     </div>
   </div>
+  
 </nav>
 
 <main>
