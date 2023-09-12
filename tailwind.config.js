@@ -3,10 +3,11 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
-      backgroundImage: {
-        'sfondo': "url('../src/images/background.svg')",
+      colors: {
+        'rosa': '#FFE8E8',
+        'salmone' : '#F1B5A8',
+        'rosso' : '#6D1010'
       },
-
       maxWidth: {
         'micro': '64px',
         'milli': '128px',

@@ -2,7 +2,9 @@
 
 
 
-
+body{
+  background-color:#F3F2EE
+}
 h1,h2,h3,h4,a,p,li {
   color: #000000;
 }

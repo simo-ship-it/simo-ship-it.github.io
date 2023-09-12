@@ -6,17 +6,17 @@
 </script>
 
 <nav>
-  <div class=" mx-auto px-5 lg:px-10 xl:px-20 flex justify-between items-center pt-6 border-b-4 border-red-900  pb-4  ">
-    <img class=" w-8 lg:w-16 " src={logo} alt="download icon"/>
+  <div class="mx-auto px-3 md:px-10 xl:px-20 flex justify-between items-center border-b-4 border-red-900 pb-4  pt-4">
+    <img class=" w-10 md:w-16 " src={logo} alt=" icon"/>
     <div class="">
       <ul class="inline-flex">
-        <li><a class="px-10 text-lg hidden lg:block " href="/about">chi sono</a></li>
-        <li><a class="px-10 text-lg hidden lg:block " href="/about">lavori</a></li>
-        <li><a class="px-10 text-lg hidden lg:block " href="/about">esperienza</a></li>
+        <li><a class="px-10 text-lg hidden md:block " href="/about">chi sono</a></li>
+        <li><a class="px-10 text-lg hidden md:block " href="/about">esperienza</a></li>
+        <li><a class="px-10 pr-20 text-lg hidden md:block " href="/about">lavori</a></li>
       
-        <div class="px-6 text-lg font-bold bg-clip-border  ">
+        <div class="text-xs md:text-lg font-bold bg-clip-border  ">
 
-        <li><a class=" py-4 px-6 bg-red-200  border-red-900  border-b-4 rounded-full" href="/about" >contattami</a></li>
+        <li><a class="py-3 px-4 md:py-4 md:px-6 bg-salmone  border-red-900  border-b-4 rounded-full" href="/about" >contattami</a></li>
         
       </div>
       </ul>
