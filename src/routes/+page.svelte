@@ -1,5 +1,6 @@
 <script>
 import "../app.css";
+import { base } from '$app/paths';
 
 import io from "../images/simone-billeri-home.svg"
 import ioSquare from "../images/simone-billeri-home-square.svg"
@@ -9,28 +10,43 @@ import sfondo from "../images/background.svg"
 
 
  
-<div class="mx-auto md:flex px-3  max-w-xl md:max-w-6xl pt-16 md:pt-32  items-center">
+<div class="mx-auto md:flex px-5  max-w-xl md:max-w-6xl pt-16 md:pt-32  items-center">
 <div class="mx-auto md:w-2/3 md:mr-4 font-mono text-base">
 
-    <div class= "bg-rosa md:bg-transparent  border-b-4 border-red-900 md:border-none rounded-2xl max-w-md md:max-w-full mx-auto p-6 md:p-0 ">
-    <p class="text-base md:text-base pb-2 md:pb-4 font-semibold ">
-        ciao
-    </p>
+    <div class="md:hidden bg-rosa border-b-4 border-red-900 rounded-2xl max-w-md mx-auto p-4 pt-6">
+        <div class="flex justify-between">
+            <div>
+                <p class="text-3xl pt-0 font-bold text-rosso ">
+                    Simone 
+                </p>
 
-    <div class="flex mx-auto">
-    <p class="text-3xl md:text-7xl pt-2 md:pb-4  font-bold md:font-semibold my-auto text-rosso ">
-        Mi chiamo Simone 
-    </p>
+                <p class="text-2xl mt-2 font-light text-rosso-2 ">
+                    informatico
+                </p>
+                <div class="mt-8">
+                    <a class="py-2 px-4 text-sm font-semibold text-rosso bg-salmone border-red-900 border-b-2 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-300 hover:border-orange-700 rounded-full duration-200" href="{base}/about">contattami</a>
+                </div>
+            </div>
+        
+                <img src={ioSquare} alt="simone billeri" class= "w-32 -mt-16"/>
+        </div>
 
-        <img src={ioSquare} alt="simone billeri" class= "w-32 -mt-20 md:hidden"/>
     </div>
 
-    <p class="text-xl md:text-3xl font-light text-center md:text-left mt-4 md:mt-0 bg-red-200 rounded-xl ">
-        sono un informatico
-    </p>
+
+    <div class="hidden md:block">
+        <p class="text-lg pb-4 font-bold text-rosa-pelle">
+            ciao
+        </p>
+        <p class="text-7xl  pb-4 font-semibold text-rosso ">
+            Mi chiamo Simone 
+        </p>
+        <p class="text-3xl font-light text-left text-rosso-2">
+            sono un informatico
+        </p>
     </div>
 
-    <p class="font-noraml text-sm md:text-base pt-10 max-w-md md:max-w-full mx-auto px-4 md:px-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, debitis. Odio, suscipit nihil quia quod delectus saepe sapiente doloribus exercitationem laboriosam est adipisci velit vero nostrum corrupti excepturi culpa optio. </p>
+    <p class="text-gray-600 font-noraml text-sm md:text-base pt-10 max-w-md md:max-w-full mx-auto px-2 md:px-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, debitis. Odio, suscipit nihil quia quod delectus saepe sapiente doloribus exercitationem laboriosam est adipisci velit vero nostrum corrupti excepturi culpa optio. </p>
 
 
     
@@ -42,7 +58,7 @@ import sfondo from "../images/background.svg"
 </div>
 </div>
 
-<img src={sfondo} alt="sfondo" class= "pt-16 px-3 mx-auto -mb-10  max-w-md md:max-w-3xl"/>
+<img src={sfondo} alt="sfondo" class= "pt-16 px-5 mx-auto -mb-10  max-w-md md:max-w-3xl"/>
 <div class="bg-orange-200">
     <pre>
 
