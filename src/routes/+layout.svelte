@@ -15,19 +15,20 @@
       <ul class="inline-flex">
 
         <div class="px-6 my-auto ">
-          <li><a class="py-1 px-4 text-lg hidden md:block transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-200 border-orange-600/0 hover:border-orange-600/100 border-b-4 rounded-full duration-200" href="{base}/about">chi sono</a></li>
+          <li><a class="py-1 px-4 text-lg hidden md:block transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-200 border-orange-600/0 hover:border-orange-800/100 border-b-2 rounded-full duration-200" href="{base}/about">chi sono</a></li>
+
         </div>
 
         <div class="px-6 my-auto ">
-          <li><a class="py-1 px-4 text-lg hidden md:block transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-200 border-orange-600/0 hover:border-orange-600/100 border-b-4 rounded-full duration-200" href="{base}/about">esperienza</a></li>
+          <li><a class="py-1 px-4 text-lg hidden md:block transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-200 border-orange-600/0 hover:border-orange-800/100 border-b-2 rounded-full duration-200" href="{base}/about">esperienza</a></li>
         </div>
 
         <div class="px-6 my-auto ">
-          <li><a class="py-1 px-4 text-lg hidden md:block transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-200 border-orange-600/0 hover:border-orange-600/100 border-b-4 rounded-full duration-200" href="{base}/about">lavori</a></li>
+          <li><a class="py-1 px-4 text-lg hidden md:block transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-200 border-orange-600/0 hover:border-orange-800/100 border-b-2 rounded-full duration-200" href="{base}/about">lavori</a></li>
         </div>
       
         <div class="pl-6 my-auto ">
-          <li><a class="py-2 px-4 text-lg font-semibold hidden md:block bg-salmone border-red-900 border-b-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-300 hover:border-orange-700 rounded-full duration-200" href="{base}/about">contattami</a></li>
+          <li><a class="py-2 px-4 text-lg font-semibold hidden md:block bg-salmone border-red-900 border-b-2 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-300 hover:border-orange-700 rounded-full duration-200" href="{base}/about">contattami</a></li>
         </div>
 
       </ul>
@@ -41,8 +42,8 @@
 </main>
 
 <div class="object-center">
-  <footer class="object-center">
-    <p></p>
+  <footer class="object-center group-hover:text-red-300">
+    <p>ciao</p>
   </footer>
 </div>
 

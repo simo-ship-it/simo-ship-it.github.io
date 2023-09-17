@@ -16,7 +16,7 @@ import sfondo from "../images/background.svg"
     <div class="md:hidden bg-rosa border-b-4 border-red-900 rounded-2xl max-w-md mx-auto p-4 pt-6">
         <div class="flex justify-between">
             <div>
-                <p class="text-3xl pt-0 font-bold text-rosso ">
+                <p class="text-3xl pt-0 font-bold text-rosso">
                     Simone 
                 </p>
 
@@ -41,7 +41,7 @@ import sfondo from "../images/background.svg"
         <p class="text-7xl  pb-4 font-semibold text-rosso ">
             Mi chiamo Simone 
         </p>
-        <p class="text-3xl font-light text-left text-rosso-2">
+        <p class="text-3xl font-light text-left text-rosso">
             sono un informatico
         </p>
     </div>
@@ -62,8 +62,7 @@ import sfondo from "../images/background.svg"
 <div class="bg-orange-200">
     <pre>
 
-
-
-
     </pre>
 </div>
+
+
